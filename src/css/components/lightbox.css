@@ -12,3 +12,12 @@
   }
 }
 
+#lightbox[open] 
+/* Ajoute un espace de 50px autour de l'élément */
+  padding: 50px; 
+  /* Applique l'animation "openLightbox" pendant 0.5 seconde */
+  animation: openLightbox 0.5s; 
+  /* Arrondit les coins à 20px */
+  border-radius: 20px; 
+  /* Ajoute une bordure de 5px bleu foncé */
+  border: 5px solid darkblue; 
