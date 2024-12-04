@@ -21,3 +21,15 @@
   border-radius: 20px; 
   /* Ajoute une bordure de 5px bleu foncé */
   border: 5px solid darkblue; 
+
+
+#lightbox[open]::backdrop {
+/* Définit le fond en orange foncé */
+  background-color: darkorange; 
+  /*Définit l'opacité à 0.3 (30%) */
+  opacity: 0.3; 
+/* Applique une transition douce de 3 secondes */
+  transition: ease 3s; 
+}
+
+
