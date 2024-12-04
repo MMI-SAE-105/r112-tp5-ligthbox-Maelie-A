@@ -32,4 +32,10 @@
   transition: ease 3s; 
 }
 
+#lightbox img {
+    /* Définit la largeur de l'image à 60% de la largeur de la fenêtre */
+  width: 60vw; 
+  /* Ajuste la hauteur automatiquement */
+  height: auto; 
+}
 
