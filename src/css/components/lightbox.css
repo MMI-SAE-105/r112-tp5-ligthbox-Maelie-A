@@ -1,3 +1,14 @@
 /**
 * Lightbox
 */
+@keyframes openLightbox {
+  from {
+    /* Débute avec une échelle de 0 (invisible) */
+    scale: 0; 
+  }
+  to {
+  /* Finit avec une échelle de 1 (taille normale) */
+    scale: 1; 
+  }
+}
+
