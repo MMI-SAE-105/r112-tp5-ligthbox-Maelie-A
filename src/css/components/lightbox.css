@@ -20,13 +20,13 @@
   /* Arrondit les coins à 20px */
   border-radius: 20px; 
   /* Ajoute une bordure de 5px bleu foncé */
-  border: 5px solid darkblue; 
+  border: 5px solid rgb(143, 22, 167); 
 }
 
 
 #lightbox[open]::backdrop {
 /* Définit le fond en orange foncé */
-  background-color: darkorange; 
+  background-color: rgb(174, 79, 229); 
   /*Définit l'opacité à 0.3 (30%) */
   opacity: 0.3; 
 /* Applique une transition douce de 3 secondes */
